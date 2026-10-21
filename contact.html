@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css " rel="stylesheet">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class=" w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex ">
+            <li>
+                <a class="hover:underline hover:text-black " href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- contact form -->
+    <section class="flex justify-center items-center min-h-screen w-full">
+        <div class="w-full max-w-6xl max-auto px-4 md:px-8 mt-6">
+            <div class="flex justify-center items-center w-full">
+                <div class="w-full max-w-3xl mx-auto py-6 px-6 bg-gray-100 rounded-2xl sm:py-8 sm:px-10 dark:bg-neutral-800">
+                    <h2 class=" text-center text-3xl text-slate-900 font-bold dark:text-slate-50">Get In <span
+                            class="text-blue-700">Touch</span></h2>
+                    <p class=" text-center text-base text-slate-600 mt-4 leading-relaxed dark:text-slate-400">Have a
+                        specific inquiry Our
+                        experienced team is ready to engage with you.</p>
+
+                    <form class="mt-8 space-y-4">
+                        <div>
+                            <label for="name"
+                                class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John doe"
+                                class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+                        </div>
+                        <div>
+                            <label for="email"
+                                class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@readymadeui.com"
+                                class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+                        </div>
+                        <div>
+                            <label for="phone"
+                                class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Phone
+                                number</label>
+                            <input type="number" id="phone" name="phone" placeholder="+11800-259-854"
+                                class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+                        </div>
+                        <div>
+                            <label for="message"
+                                class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Message</label>
+                            <textarea placeholder="Write message" rows="6" type="text" id="message" name="message"
+                                class="px-3 py-2.5 text-sm text-slate-900 w-full rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full mt-2 py-2.5 px-4 text-sm rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Send
+                            message</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <Section class="bg-green-200 p-10 flex flex-col gap-4">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+        <p>@ 2026 Greenday.com</p>
+    </Section>
+</body>
+
+</html>
